@@ -6,6 +6,7 @@ import "./App.css";
 function App() {
   return (
     <styleContext.Provider value={styles}>
+      <h1>Draw Three Concentric Circles</h1>
       <OuterCircle />
     </styleContext.Provider>
   );
